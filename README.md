@@ -5,8 +5,14 @@ Simple script to sync (recusivly copy) files from one NAS to another. This is on
 Files that already exist, filename and size matches, will be skipped. 
 
 Usage:
+
   enalbe FTP on source NAS
+  
   enalbe ssh on target NAS
+  
   Copy script to target NAS (update the target ip address in the source code)
+  
   ssh into target NAS 
+  
   python fsync.py source target
+  
